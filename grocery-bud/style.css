@@ -258,6 +258,22 @@ Grocery List
 .show-container {
   visibility: visible;
 }
+.grocery-list{
+  max-height: 230px;
+  overflow-y: scroll;
+}
+.grocery-list::-webkit-scrollbar{
+  width: 5px;
+  background: #c1c1c12d;
+  border-radius: 5px;
+}
+.grocery-list::-webkit-scrollbar-thumb{
+  background: #c1c1c194;
+  border-radius: 5px;
+}
+.grocery-list::-webkit-scrollbar-thumb:hover{
+  background: #c1c1c1;
+}
 .grocery-item {
   display: flex;
   align-items: center;
